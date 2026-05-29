@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AK-Tuning | Custom avgassystem</title>
+    <meta
+      name="description"
+      content="Custom avgassystem, resonator delete, ljuddämpare och kompletta avgaslösningar. Skicka en offertförfrågan till AK-Tuning."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Sidhuvud">
+      <a class="brand" href="#top" aria-label="AK-Tuning startsida">
+        <img class="brand-logo" src="assets/ak-logo.avif" alt="AK-Tuning" />
+        <span>
+          <strong>AK-Tuning</strong>
+          <small>Custom exhaust fabrication</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Huvudmeny">
+        <a href="#services">Tjänster</a>
+        <a href="#quote">Offert</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Custom avgassystem">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Ny satsning hos AK-Tuning</p>
+          <h1>Custom avgassystem byggda efter din bil.</h1>
+          <p class="hero-copy">
+            Vi tar fram rostfria avgaslösningar, resonator delete, ljuddämparbyten och kompletta system med hjälp av erfaren svetskompetens.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#quote">Begär offert</a>
+            <a class="button secondary" href="#services">Se lösningar</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Snabb information">
+        <div class="intro-item">
+          <span class="intro-icon" aria-hidden="true">01</span>
+          <strong>Biluppgifter</strong>
+          <p>Märke, modell, årsmodell och motor ger oss rätt startpunkt.</p>
+        </div>
+        <div class="intro-item">
+          <span class="intro-icon" aria-hidden="true">02</span>
+          <strong>Önskat arbete</strong>
+          <p>Välj allt från resonator delete till komplett customsystem.</p>
+        </div>
+        <div class="intro-item">
+          <span class="intro-icon" aria-hidden="true">03</span>
+          <strong>Offert tillbaka</strong>
+          <p>Vi återkommer med upplägg, prisbild och nästa lediga tid.</p>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Avgaslösningar</p>
+          <h2>Från diskret ton till fullt specialbygge.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-symbol" aria-hidden="true">R</span>
+            <h3>Resonator delete</h3>
+            <p>För dig som vill ha tydligare ljudbild utan att byta hela systemet.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-symbol" aria-hidden="true">B</span>
+            <h3>Bakre ljuddämpare</h3>
+            <p>Byte, modifiering eller custom lösning anpassad efter bilens utrymme.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-symbol" aria-hidden="true">C</span>
+            <h3>Cat-back system</h3>
+            <p>System från katalysator och bakåt med rördragning, dämpare och ändrör.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-symbol" aria-hidden="true">K</span>
+            <h3>Komplett avgassystem</h3>
+            <p>Specialbyggt system för prestanda, passform, ljud och finish.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="quote" class="quote-section">
+        <div class="quote-copy">
+          <p class="eyebrow">Offertförfrågan</p>
+          <h2>Berätta vad du vill bygga.</h2>
+          <p>
+            Fyll i bilens uppgifter och kryssa i arbetet du är intresserad av. Ju mer information du skickar med, desto snabbare kan vi återkomma med en relevant offert.
+          </p>
+          <div class="note">
+            <strong>Tips</strong>
+            <span>Beskriv gärna önskad ljudnivå, ändrör, besiktningstankar och om bilen redan har modifieringar.</span>
+          </div>
+        </div>
+
+        <form class="quote-form" id="quoteForm">
+          <div class="form-grid">
+            <label>
+              <span>Märke</span>
+              <input name="marke" autocomplete="organization" placeholder="Ex. BMW" required />
+            </label>
+            <label>
+              <span>Modell</span>
+              <input name="modell" placeholder="Ex. M340i" required />
+            </label>
+            <label>
+              <span>Årsmodell</span>
+              <input name="arsmodell" inputmode="numeric" placeholder="Ex. 2021" required />
+            </label>
+            <label>
+              <span>Motor</span>
+              <input name="motor" placeholder="Ex. B58 3.0T" required />
+            </label>
+            <label>
+              <span>Registreringsnummer</span>
+              <input name="regnr" placeholder="Valfritt" />
+            </label>
+            <label>
+              <span>Växellåda</span>
+              <select name="vaxellada">
+                <option value="">Välj</option>
+                <option>Automat</option>
+                <option>Manuell</option>
+                <option>Dubbelkoppling</option>
+                <option>Annat / osäker</option>
+              </select>
+            </label>
+          </div>
+
+          <fieldset>
+            <legend>Vad vill du ha utfört?</legend>
+            <div class="check-grid">
+              <label><input type="checkbox" name="arbete" value="Resonator delete" /> <span>Resonator delete</span></label>
+              <label><input type="checkbox" name="arbete" value="Bakre ljuddämpare" /> <span>Bakre ljuddämpare</span></label>
+              <label><input type="checkbox" name="arbete" value="Cat-back avgassystem" /> <span>Cat-back avgassystem</span></label>
+              <label><input type="checkbox" name="arbete" value="Komplett avgassystem" /> <span>Komplett avgassystem</span></label>
+              <label><input type="checkbox" name="arbete" value="Downpipe / framrör" /> <span>Downpipe / framrör</span></label>
+              <label><input type="checkbox" name="arbete" value="Ändrör / tips" /> <span>Ändrör / tips</span></label>
+              <label><input type="checkbox" name="arbete" value="Reparation / svetsning" /> <span>Reparation / svetsning</span></label>
+              <label><input type="checkbox" name="arbete" value="Annat customarbete" /> <span>Annat customarbete</span></label>
+            </div>
+          </fieldset>
+
+          <div class="form-grid">
+            <label>
+              <span>Önskad ljudnivå</span>
+              <select name="ljudniva">
+                <option>Diskret och vardagsvänlig</option>
+                <option>Sportig men kontrollerad</option>
+                <option>Högre och mer aggressiv</option>
+                <option>Osäker, rådgör gärna</option>
+              </select>
+            </label>
+            <label>
+              <span>Önskad tidsram</span>
+              <select name="tidsram">
+                <option>Så snart som möjligt</option>
+                <option>Inom 2-4 veckor</option>
+                <option>Planerar framåt</option>
+                <option>Flexibel</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            <span>Beskrivning</span>
+            <textarea name="beskrivning" rows="5" placeholder="Ex. Jag vill ha mer ljud vid acceleration men undvika drone på motorväg. Bilen har redan steg 1 optimering."></textarea>
+          </label>
+
+          <div class="form-grid">
+            <label>
+              <span>Namn</span>
+              <input name="namn" autocomplete="name" required />
+            </label>
+            <label>
+              <span>E-post</span>
+              <input name="epost" type="email" autocomplete="email" required />
+            </label>
+            <label>
+              <span>Telefon</span>
+              <input name="telefon" type="tel" autocomplete="tel" required />
+            </label>
+            <label>
+              <span>Ort</span>
+              <input name="ort" autocomplete="address-level2" placeholder="Ex. Stockholm" />
+            </label>
+          </div>
+
+          <button class="submit-button" type="submit">Skicka offertförfrågan</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div>
+        <strong>AK-Tuning</strong>
+        <p>Custom avgassystem, svetsning och prestandalösningar.</p>
+      </div>
+      <a href="mailto:info@aktuning.se">info@aktuning.se</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
